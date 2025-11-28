@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_common_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "links": {
+      "type": "component",
+      "component": "common.link",
+      "repeatable": true
+    },
+    "dropdownLinks": {
+      "type": "component",
+      "component": "common.dropdown-link",
+      "repeatable": true
+    },
+    "ctaButton": {
+      "type": "component",
+      "component": "common.button",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}
